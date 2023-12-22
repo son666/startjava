@@ -17,7 +17,7 @@ public class VariablesTheme {
         System.out.println("Тактовая частота процессора: " + cpuСlock + " GHz");
         System.out.println("Серия Lenovo ThinkStation: " + seriesStation);
         System.out.println("Является рабочей станцией?: " + isStation);
-        System.out.println("");
+        System.out.println();
 
         System.out.println("2. Расчет стоимости товара со скидкой");
         double penPrice = 100.00;
@@ -29,14 +29,14 @@ public class VariablesTheme {
         System.out.println("Общая стоимость товаров (ручка, книга): " + sumProductPrice + "руб.");
         System.out.println("Сумма скидки на товары: " + discountPrice + "руб.");
         System.out.println("Сумма товаров с учетом скидки: " + sumDiscountProductPrice + "руб.");
-        System.out.println("");
+        System.out.println();
 
         System.out.println("3. Вывод слова JAVA");
         System.out.println(String.format("    J     a     v     v    a"));
         System.out.println(String.format("    J    a a     v   v    a a"));
         System.out.println(String.format(" J  J   aaaaa     V V    aaaaa"));
         System.out.println(String.format("  JJ   a     a     V    a     a"));
-        System.out.println("");
+        System.out.println();
 
         System.out.println("4. Вывод min и max значений целых числовых типов");
         byte b = 127;
@@ -47,7 +47,7 @@ public class VariablesTheme {
         System.out.println("Тип short: " + s + " (++s) -> " + ++s + " (--s) -> " + --s);
         System.out.println("Тип int: " + i + " (++i) -> " + ++i + " (--i) -> " + --i);
         System.out.println("Тип long: " + l + " (++l) -> " + ++l + " (--l) -> " + --l);
-        System.out.println("");
+        System.out.println();
 
         System.out.println("5. Перестановка значений переменных");
         //с помощью третьей переменной
@@ -74,7 +74,7 @@ public class VariablesTheme {
         second = first ^ second;
         first = first ^ second;
         System.out.println(String.format("Новые значения переменных: first = %d, second = %d", first, second));
-        System.out.println("");
+        System.out.println();
 
         System.out.println("6. Вывод символов и их кодов");
         char dollar = '$'; //36
@@ -87,7 +87,7 @@ public class VariablesTheme {
         System.out.println("64 " + atsign);
         System.out.println("124 " + verticalBar);
         System.out.println("126 " + tilde);
-        System.out.println("");
+        System.out.println();
 
         System.out.println("7. Вывод в консоль ASCII-арт Дюка");
         char slash = '/';
@@ -102,7 +102,7 @@ public class VariablesTheme {
         System.out.println(String.format("   %c      %c       ", slash, backSlash));
         System.out.println(String.format("  %c%c%c%c%c%c%c%c%c%c       ", slash, underScore, underScore, underScore, 
             underScore, slash, backSlash, underScore, underScore, backSlash));
-        System.out.println("");
+        System.out.println();
 
         System.out.println("8. Вывод количества сотен, десятков и единиц числа");
         int number = 123;
@@ -117,7 +117,7 @@ public class VariablesTheme {
         System.out.println("    единиц - " + ones);
         System.out.println("Сумма его цифр = " + sumDigitNumber);
         System.out.println("Произведение = " + multiplyDigitNumber);
-        System.out.println("");
+        System.out.println();
 
         System.out.println("9. Вывод времени");
         int totalSecond = 86399;
