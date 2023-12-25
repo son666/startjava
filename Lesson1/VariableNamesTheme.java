@@ -94,8 +94,8 @@ public class VariableNamesTheme {
         System.out.println("полное имя работника месяца: " + fullNameEmployeeMonth);
 
         //заголовок электронной книги
-        String eBookTitle = "Заголовок электронной книги";
-        System.out.println("заголовок электронной книги: " + eBookTitle);
+        String ebookTitle = "Заголовок электронной книги";
+        System.out.println("заголовок электронной книги: " + ebookTitle);
 
         //размер
         double size = 42.2;
@@ -116,12 +116,11 @@ public class VariableNamesTheme {
         //количество чисел в каждой строке
         int countNumbersString = 200;
         System.out.println("количество чисел в каждой строке = " + countNumbersString);
-        System.out.println();
 
-        System.out.println("2. boolean-переменные");
+        System.out.println("\n2. boolean-переменные");
         //сотни равны?
-        boolean isHundredsEqual = true;
-        System.out.println("сотни равны?: " + isHundredsEqual);
+        boolean isEqualHundreds = true;
+        System.out.println("сотни равны?: " + isEqualHundreds);
 
         //компьютер включен?
         boolean isComputerOn = true;
@@ -154,24 +153,23 @@ public class VariableNamesTheme {
         //имеются уникальные строки?
         boolean hasUniqueStrings = false;
         System.out.println("имеются уникальные строки?: " + hasUniqueStrings);
-        System.out.println();
 
-        System.out.println("3. Аббревиатуры");
+        System.out.println("\n3. Аббревиатуры");
         //старый universally unique identifier
         String oldUuid = "550e8400-e29b-41d4-a716-446655440000";
         System.out.println("старый UUID: " + oldUuid);
 
         //производитель оперативной памяти
-        String producerRam = "KINGMAX";
-        System.out.println("Производитель оперативной памяти: " + producerRam);
+        String manufacturerRam = "KINGMAX";
+        System.out.println("Производитель оперативной памяти: " + manufacturerRam);
 
         //емкость жесткого диска
         int capacityHdd = 2;
         System.out.println("емкость жесткого диска: " + capacityHdd + "Tb");
 
         //протокол передачи гипертекста
-        String protocolTransferHypertext   = "HTTPS";
-        System.out.println("протокол передачи гипертекста: " + protocolTransferHypertext);
+        String https   = "HTTPS";
+        System.out.println("протокол передачи гипертекста: " + https);
 
         //сокращенный uniform resource locator
         String shortUrl = "ya.ru";
@@ -184,6 +182,5 @@ public class VariableNamesTheme {
         //кодировка american standard code for information interchange
         String ascii = "ASCII";
         System.out.println("кодировка american standard code for information interchange: " + ascii);
-        System.out.println();
     }
 }
