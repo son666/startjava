@@ -168,7 +168,7 @@ public class VariableNamesTheme {
         System.out.println("емкость жесткого диска: " + capacityHdd + "Tb");
 
         //протокол передачи гипертекста
-        String https   = "HTTPS";
+        String https = "HTTPS";
         System.out.println("протокол передачи гипертекста: " + https);
 
         //сокращенный uniform resource locator
